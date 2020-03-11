@@ -1,0 +1,1 @@
+web: node n64-bet-app/server.js

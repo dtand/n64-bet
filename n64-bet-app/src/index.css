@@ -1,0 +1,245 @@
+html {
+  background-color: rgb(139, 139, 139);
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(65, 65, 65);
+  overflow-x: hidden;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.bg-all {
+  background-color: rgb(65, 65, 65);
+}
+
+.top-strip {
+  height: 2px;
+  background-color: #9147ff;
+}
+
+.nav {
+  background-color: rgb(32, 32, 32);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-bottom: 3px solid #9147ff;
+}
+
+.footer {
+  background-color: rgb(32, 32, 32);
+  padding-top: 20px;
+  padding-bottom: 20px;
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+  text-align: center;
+}
+
+.welcome-section {
+  text-align: center;
+}
+
+.locked-section {
+  position: absolute;
+  width: 100%;
+  background-color: rgb(0,0,0,.5);
+  height: 40%;
+}
+
+.game-info-banner{
+  color: white;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background-color: rgb(66, 66, 66);
+  border-top: 3px solid #000000;
+}
+
+.video-section {
+  text-align: center;
+  background-color: rgb(0, 0, 0);
+}
+
+.bet-section-locked{
+  padding-top: 25px;
+  padding-bottom: 5px;
+  text-align: left;
+  border-top: 3px solid #000000;
+  background-color: rgb(93, 93, 93);
+}
+
+.bet-section {
+  padding-top: 25px;
+  padding-bottom: 5px;
+  text-align: left;
+  border-top: 3px solid #000000;
+  background-color: rgb(139, 139, 139);
+}
+
+.bet-player {
+  border-left: 1px solid #000000;
+}
+
+.user-info{
+  border-right: 1px solid #000000;
+}
+
+.character-img {
+  width: 70%;
+  border: 1px solid #000000;
+}
+
+.character-img-selected {
+  width: 70%;
+  border: 1px solid #9147ff;
+}
+
+.primary-color {
+  color: #9147ff;
+}
+
+.pad-5{
+  padding: 5px;
+}
+
+.pad-right-5{
+  padding-right: 5px;
+}
+
+.pad-bottom-5{
+  padding-bottom: 5px;
+}
+
+.pad-left-20 {
+  padding-left: 20px;
+}
+
+.pad-right-20 {
+  padding-right: 20px;
+}
+
+.margins-100 {
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.text-black {
+  color: black;
+}
+
+.text-white {
+  color: white;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.scrollable {
+  height: 320px;
+  overflow-y: scroll;
+}
+
+@keyframes flickerAnimation {
+  0%   { opacity:1; }
+  50%  { opacity:.5; }
+  100% { opacity:1; }
+}
+@-o-keyframes flickerAnimation{
+  0%   { opacity:1; }
+  50%  { opacity:.5; }
+  100% { opacity:1; }
+}
+@-moz-keyframes flickerAnimation{
+  0%   { opacity:1; }
+  50%  { opacity:.5; }
+  100% { opacity:1; }
+}
+@-webkit-keyframes flickerAnimation{
+  0%   { opacity:1; }
+  50%  { opacity:.5; }
+  100% { opacity:1; }
+}
+.animate-flicker {
+   -webkit-animation: flickerAnimation 2s infinite;
+   -moz-animation: flickerAnimation 2s infinite;
+   -o-animation: flickerAnimation 2s infinite;
+    animation: flickerAnimation 2s infinite;
+}
+
+.new-bet-notification{
+  background-color: green;
+}
+
+.fade-animation {
+  opacity: 0;
+}
+
+.fade-out {
+  animation: fadeOut ease 2s;
+  -webkit-animation: fadeOut ease 2s;
+  -moz-animation: fadeOut ease 2s;
+  -o-animation: fadeOut ease 2s;
+  -ms-animation: fadeOut ease 2s;
+}
+
+@keyframes fadeOut {
+  0% {
+    opacity:1;
+  }
+  100% {
+    opacity:0;
+  }
+}
+
+@-moz-keyframes fadeOut {
+  0% {
+    opacity:1;
+  }
+  100% {
+    opacity:0;
+  }
+}
+
+@-webkit-keyframes fadeOut {
+  0% {
+    opacity:1;
+  }
+  100% {
+    opacity:0;
+  }
+}
+
+@-o-keyframes fadeOut {
+  0% {
+    opacity:1;
+  }
+  100% {
+    opacity:0;
+  }
+}
+
+@-ms-keyframes fadeOut {
+    0% {
+      opacity:1;
+    }
+    100% {
+      opacity:0;
+  }
+}
