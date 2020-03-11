@@ -10,7 +10,7 @@ import openSocket from "socket.io-client";
 let apiPrefix = "https://n64-bet.herokuapp.com/";
 
 if (window.location.href.indexOf("localhost") > -1) {
-    apiPrefix = "http://localhost:8080/";
+     apiPrefix = "http://localhost:8080/";
 }
 
 let numberWithCommas = require('./Utils.js').numberWithCommas;
